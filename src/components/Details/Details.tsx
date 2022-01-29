@@ -1,5 +1,6 @@
 import React from 'react';
 import './Details.css'
+import Skill from '../Skill/Skill'
 
 
 const Details = ({
@@ -10,10 +11,13 @@ const Details = ({
     postedAt,
     contract, 
     location,
+    role,
     languages,
     tools,
     filter
 }) => {
+
+  const skill = [role,...languages,...tools]
   return(
       <div className="details">
         <div className="card-labels">
@@ -29,7 +33,9 @@ const Details = ({
             <p>{location}</p>
           </div>
         </div>
-        
+        <div className="skills">
+          <Skill skill={skill}/>
+        </div>
       </div>
     );
 }

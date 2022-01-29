@@ -21,7 +21,7 @@ function App() {
       <div id='content'>
         {
           listings.map(listing => (
-            <Card listing={listing}/>
+            <Card listing={listing} key={listings.company}/>
           ))
         }
       </div>

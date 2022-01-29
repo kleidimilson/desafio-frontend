@@ -1,5 +1,7 @@
 .details{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .new-label{
     background-color: #5DA5A4;
@@ -53,4 +55,7 @@
     color: #9e9c9c;
     margin-right: 10px;
     margin-top: 10px;
+}
+.skills{
+    width: auto;
 }

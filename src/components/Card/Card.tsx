@@ -16,6 +16,7 @@ const Card = ({listing, filter}) => {
           postedAt={listing.postedAt}
           contract={listing.contract} 
           location={listing.location}
+          role={listing.role}
           languages={listing.languages}
           tools={listing.tools}
           filter={filter}
