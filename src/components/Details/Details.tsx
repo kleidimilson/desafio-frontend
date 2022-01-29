@@ -16,7 +16,7 @@ const Details = ({
     tools,
     filter
 }) => {
-
+ 
   const skill = [role,...languages,...tools]
   return(
       <div className="details">
@@ -34,7 +34,7 @@ const Details = ({
           </div>
         </div>
         <div className="skills">
-          <Skill skill={skill}/>
+          <Skill skill={skill} filter={filter}/>
         </div>
       </div>
     );

@@ -4,10 +4,14 @@ import Image from '../Image/Image';
 import './Card.css'
 
 const Card = ({listing, filter}) => {
+
+  
   const cardType = listing.featured?'card featured': 'card'
+  
+  
   return(
       <div className={cardType}>
-          <Image url={listing.logo} desc={listing.company}/>
+          <Image logo={listing.logo} desc={listing.company}/>
           <Details 
           recent={listing.new} 
           company={listing.company} 

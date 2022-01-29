@@ -2,11 +2,15 @@ import React from 'react';
 
 import './Skill.css'
 
-const Skill = ({skill}) => {
-    
+const Skill = ({skill, filter}) => {
+
+  function handleClick(skill){
+    console.log(skill)
+    filter(skill)
+} 
   return (
        skill.map(item => (
-           <button>{item}</button>
+           <button onClick={()=>handleClick(item)}>{item}</button>
        ))
   )
 }

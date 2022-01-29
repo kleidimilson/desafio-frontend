@@ -1,0 +1,17 @@
+
+#filterItem{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #EFFAFA;
+    border: none;
+    color: #5EA5A4;
+    height: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}

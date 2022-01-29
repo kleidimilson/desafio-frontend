@@ -1,11 +1,12 @@
 import React from 'react'
-import logo from '../../images/photosnap.svg'
-import './Image.css'
 
-function Image({ url, desc}) {
+import './Image.css'
+import image from '../../images/photosnap.svg'
+
+function Image({ logo, desc}) {
     return (
         <div>
-            <img src={logo} alt={desc}  />
+          <img src={image} alt={desc}  />
         </div>
     )
 }
