@@ -2,16 +2,35 @@
 #filterItem{
     background-color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 20px;
     background-color: #EFFAFA;
     border: none;
     color: #5EA5A4;
     height: 20px;
+    width: 140px;
     font-weight: bold;
     font-size: 13px;
-    padding: 10px;
+    height: 30px;
     border-radius: 7px;
     cursor: pointer;
+    padding: 1px;
+}
+#itemFilter{
+    margin-left: 10px;
+}
+#iconClose{
+    width: 10px;
+}
+#closeButton{
+    height: 31px;
+    border-radius: 0px 7px 7px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5DA5A4;
+}
+#closeButton:hover{
+    background-color: #000;
 }

@@ -30,7 +30,7 @@ function App() {
 
 
   const haveFilters = filters<1?'noFilter':'filter'
-  
+
   return (
     <div className="App">
       <Header/>
@@ -45,7 +45,6 @@ function App() {
             <Card listing={listing} key={listings.company} filter={filterListings}/>
           ))
         }
-        
       </div>
     </div>
   )

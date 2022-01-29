@@ -1,12 +1,19 @@
 import React from 'react';
 import './FilterItem.css'
+import iconClose from '../../images/close.png'
 const FilterItem = ({item, _callback}) => {
 
     const removeFilter = () => {
         _callback(item)
     }
   return(
-         <span id='filterItem' onClick={()=>removeFilter()}>{item}</span>
+         
+         <div id='filterItem' onClick={()=>removeFilter()}>
+            <span id='itemFilter'>{item}</span>
+            <div id='closeButton'>
+              <img id="iconClose" src={iconClose}/>
+            </div>
+         </div>
   )
 }
 
