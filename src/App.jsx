@@ -26,9 +26,6 @@ function App() {
     setFilters( filters.filter( item => item !== removed_filter ) )
   }
  
- 
-
-
   const haveFilters = filters<1?'noFilter':'filter'
 
   return (
@@ -42,7 +39,7 @@ function App() {
       </div>
         {
           listings.map(listing => (
-            <Card listing={listing} key={listings.company} filter={filterListings}/>
+            <Card listing={listing} key={listings.id} filter={filterListings}/>
           ))
         }
       </div>
