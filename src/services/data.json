@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "Photosnap",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/photosnap.svg?alt=media&token=94131572-b228-4907-933a-f99ac4a1136e",
+    "logo": "./src/images/photosnap.svg",
     "new": true,
     "featured": true,
     "position": "Senior Frontend Developer",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "company": "Manage",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/manage.svg?alt=media&token=ccb449d9-2f07-4aed-b068-0cdab4c6ab43",
+    "logo": "./src/images/manage.svg",
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -32,7 +32,7 @@
   {
     "id": 3,
     "company": "Account",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/account.svg?alt=media&token=689f94b4-ca70-4242-85a0-d2065d300706",
+    "logo": "./src/images/account.svg",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -62,7 +62,7 @@
   {
     "id": 5,
     "company": "Loop Studios",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/loop-studios.svg?alt=media&token=5605b177-09f4-42be-90e0-a1781ca7e8c5",
+    "logo": "./src/images/loop-studios.svg",
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -77,7 +77,7 @@
   {
     "id": 6,
     "company": "FaceIt",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/faceit.svg?alt=media&token=228195f2-f255-4be3-b9c4-fd69abbfd2e8",
+    "logo": "./src/images/faceit.svg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -92,7 +92,7 @@
   {
     "id": 7,
     "company": "Shortly",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/shortly.svg?alt=media&token=ab65c6b1-456e-4954-8132-b7f6aaf88b5e",
+    "logo": "./src/images/shortly.svg",
     "new": false,
     "featured": false,
     "position": "Junior Developer",
@@ -107,7 +107,7 @@
   {
     "id": 8,
     "company": "Insure",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/insure.svg?alt=media&token=a7c10c2b-33ad-4d7d-b141-d29017aa5f4f",
+    "logo": "./src/images/insure.svg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -122,7 +122,7 @@
   {
     "id": 9,
     "company": "Eyecam Co.",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/eyecam-co.svg?alt=media&token=8b983cb7-14d3-4bb4-8f74-d4df2cf046d3",
+    "logo": ".//images/eyecam-co.svg",
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -137,7 +137,7 @@
   {
     "id": 10,
     "company": "The Air Filter Company",
-    "logo": "https://firebasestorage.googleapis.com/v0/b/bdss-9e2e6.appspot.com/o/the-air-filter-company.svg?alt=media&token=f6d6c570-48cf-4586-94a2-714c59496fd4",
+    "logo": "./images/the-air-filter-company.svg",
     "new": false,
     "featured": false,
     "position": "Front-end Dev",
