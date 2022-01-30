@@ -1,6 +1,6 @@
 header{
     background-color: hsl(180, 29%, 50%);
-    background-image: url(./../../../images/bg-header-mobile.svg);
+    background-image: url(../../images/bg-header-mobile.svg);
     background-position:initial;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,6 +9,6 @@ header{
 
 @media (min-width: 900px) {
    header{
-        background-image: url(./../../../images/bg-header-desktop.svg);
+        background-image: url(../../images/bg-header-desktop.svg);
    }
  }
