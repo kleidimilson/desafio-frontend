@@ -1,5 +1,5 @@
 .card{
-    margin: 10px;
+    margin-bottom: 50px;
     display: flex;
     background-color: #fff;
     flex-direction: column;
@@ -18,6 +18,7 @@
 
 @media (min-width: 900px) {
    .card{
+       margin-bottom: 20px;
         flex-direction: row;
         height: 100px;
         align-items: center;

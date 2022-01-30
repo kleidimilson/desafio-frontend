@@ -19,7 +19,7 @@ function App() {
     if (!filters.includes(filter_by) && filter_by !== null)
       setFilters([...filters, filter_by])
 
-    setListings(listings.filter(listing => [...listing.languages, ...listing.tools].includes(filter_by)))
+    setListings(listings.filter(listing => [...listing.languages, listing.tools, listing.level, listing.role].includes(filter_by)))
   }
 
   const removeFilter = (removed_filter) => {

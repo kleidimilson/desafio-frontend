@@ -1,5 +1,14 @@
 img{
-    width: 70px;
-    margin: 20px;
-    position: relative;
+  width: 60px;
+  position: relative;
+  top: -25px;
 }
+
+@media (min-width: 900px) {
+   img{
+    width: 60px;
+    margin: 20px;
+    top: 0px;
+    position: relative;
+   }
+ }
