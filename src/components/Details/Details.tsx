@@ -12,12 +12,13 @@ const Details = ({
     contract, 
     location,
     role,
+    level,
     languages,
     tools,
     filter
 }) => {
  
-  const skill = [role,...languages,...tools]
+  const skill = [,role,level,...languages,...tools]
   return(
       <div className="details">
         <div className="card-labels">
