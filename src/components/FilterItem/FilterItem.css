@@ -9,7 +9,7 @@
     border: none;
     color: #5EA5A4;
     height: 20px;
-    width: 140px;
+    width: 120px;
     font-weight: bold;
     font-size: 13px;
     height: 30px;
@@ -22,9 +22,12 @@
 }
 #iconClose{
     width: 10px;
+    position: relative;
+    top: 0px;
 }
 #closeButton{
     height: 31px;
+    width: 30px;
     border-radius: 0px 7px 7px 0px;
     display: flex;
     align-items: center;
