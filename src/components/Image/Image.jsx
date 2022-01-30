@@ -1,13 +1,12 @@
 import React from 'react'
 
 import './Image.css'
-import imagem from '../../images/photosnap.svg'
 
-
-function Image({ logo, desc}) {
+function Image({logo, desc}) {
+    console.log(logo)
     return (
         <div>
-          <img src={imagem} alt={desc}  />
+          <img src={logo} alt={desc}  />
         </div>
     )
 }

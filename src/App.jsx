@@ -29,7 +29,7 @@ function App() {
   const haveFilters = filters<1?'noFilter':'filter'
 
   return (
-    <div className="App">
+    <main className="App">
       <Header/>
     
       <div id='content'>
@@ -43,7 +43,7 @@ function App() {
           ))
         }
       </div>
-    </div>
+    </main>
   )
 }
 

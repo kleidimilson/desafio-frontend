@@ -1,6 +1,6 @@
 import React from 'react';
 import './FilterItem.css'
-import iconClose from '../../images/close.png'
+import iconClose from '../../../images/close.png'
 const FilterItem = ({item, _callback}) => {
 
     const removeFilter = () => {

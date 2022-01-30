@@ -11,7 +11,7 @@ const Card = ({listing, filter}) => {
   
   return(
       <div className={cardType}>
-          <Image logo={listing.logo} desc={listing.company}/>
+          <Image logo={listing.logo} desc={listing.campany}/>
           <Details 
           recent={listing.new} 
           company={listing.company} 
