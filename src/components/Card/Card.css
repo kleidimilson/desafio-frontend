@@ -3,7 +3,7 @@
     display: flex;
     background-color: #fff;
     flex-direction: column;
-    width: 94%;
+    width: 95%;
     display: flex;
     height: 300px;
     align-items: flex-start;
@@ -20,7 +20,7 @@
    .card{
        margin-bottom: 20px;
         flex-direction: row;
-        height: 130px;
+        height: 120px;
         align-items: center;
    }
 }
