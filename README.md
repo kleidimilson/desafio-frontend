@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Desafio para a vaga de desenvolovedor júnior na Loumar turismo.
+Desafio para a vaga de desenvolvedor júnior na Loumar turismo.
 [Link do projeto](https://desafio-frontend-jet.vercel.app/) 
 
 **To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
